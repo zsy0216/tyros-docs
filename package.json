@@ -1,0 +1,17 @@
+{
+  "name": "tyros-docs",
+  "version": "1.0.0",
+  "description": "doc site for project",
+  "main": "index.js",
+  "author": "594983498@qq.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "./deploy.sh"
+  }
+}
